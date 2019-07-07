@@ -78,7 +78,7 @@ def all_supplies_in_holidays(holiday_hash)
 all_holidays_and_supplies = []
 holiday_hash.each do |season, holiday|
 all_holidays_and_supplies << holiday_hash
-binding.pry
+#binding.pry
 end
 end
 def all_holidays_with_bbq(holiday_hash)
