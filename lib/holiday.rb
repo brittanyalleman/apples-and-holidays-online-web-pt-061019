@@ -81,7 +81,7 @@ holiday_hash.each do |season, holiday|
 puts season.to_s.capitalize << ":"
 
 holiday.each do | key, values|
-puts "  " << key.to_s.capitalize << ":" << values.join(", ")
+puts "  " << key.to_s.capitalize << ": " << values.join(", ")
 #binding.pry
 
 
