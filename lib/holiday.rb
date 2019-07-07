@@ -83,7 +83,7 @@ puts season.to_s.capitalize << ":"
 
 holiday.each do | key, values|
   binding.pry
-puts "  " << key.to_s.split("_").join(" ") capitalize << ": " << values.join(", ")
+puts "  " << key.to_s.split("_").join(" ").capitalize << ": " << values.join(", ")
 #binding.pry
 
 binding.pry
