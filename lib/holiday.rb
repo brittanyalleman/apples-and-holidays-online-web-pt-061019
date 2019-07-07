@@ -82,6 +82,7 @@ puts season.to_s.capitalize << ":"
 
 holiday.each do | key, values|
 "  " << key.to_s.capitalize << ":"
+binding.pry
 
 
 #binding.pry
