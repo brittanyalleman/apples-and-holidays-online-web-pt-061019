@@ -92,7 +92,8 @@ bbq_holidays=[]
 holiday_hash.each do |key,value|
 
 
-if holiday_hashAq1`.include? ("BBQ")
+if
+  holiday_hash.find {|key, value| key == "BBQ"}
 
 end
 end
