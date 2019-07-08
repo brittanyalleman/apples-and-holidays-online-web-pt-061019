@@ -93,7 +93,7 @@ holiday_hash.each do |key,value|
 
 
 if key.inclue? ("BBQ")
-else false
+else 
 
 end
 end
