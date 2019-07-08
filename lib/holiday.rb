@@ -91,8 +91,9 @@ def all_holidays_with_bbq(holiday_hash)
 bbq_holidays=[]
 
 
- holiday_hash.find {|key, value| binding.pry}
-
+ holiday_hash.each {|key, value| binding.pry}
+ values.each {}
+}
 
 
 
