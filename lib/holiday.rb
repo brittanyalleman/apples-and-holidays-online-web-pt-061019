@@ -93,6 +93,6 @@ bbq_holidays=[]
 
 if
   holiday_hash.find {|key, value| key == "BBQ"}
-bbq_holidays <<
+bbq_holidays << 
 end
 end
