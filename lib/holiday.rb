@@ -99,9 +99,8 @@ bbq_holidays=[]
 
  }
 }
-end
+
 bbq_holidays
 
-
-
 end
+end 
