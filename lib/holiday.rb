@@ -92,7 +92,7 @@ bbq_holidays=[]
 
 
  holiday_hash.each {|key, value|
- values.each {|holiday, supplies|
+ value.each {|holiday, supplies|
    binding.pry
  }
 }
