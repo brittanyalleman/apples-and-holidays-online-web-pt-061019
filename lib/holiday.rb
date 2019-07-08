@@ -90,7 +90,9 @@ def all_holidays_with_bbq(holiday_hash)
   binding.pry
 BBQ_HOLIDAYS =[]
 holiday_hash.each do |key,value|
-if key.inclue? (BBQ) << BBQ_HOLIDAYS
+
+
+if key.inclue? ("BBQ")
 else false
 
 end
