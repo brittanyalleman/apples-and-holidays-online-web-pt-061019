@@ -95,7 +95,7 @@ bbq_holidays=[]
  value.each {|holiday, supplies|
    #binding.pry
    if supplies.include? "BBQ"
-    puts holiday << bbq_holidays
+    puts bbq_holidays << holiday 
 
  end
 }
