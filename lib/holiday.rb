@@ -96,5 +96,5 @@ if holiday_hash.find {|key, value| key == "BBQ"}
 
 
  end
- 
+
 end
