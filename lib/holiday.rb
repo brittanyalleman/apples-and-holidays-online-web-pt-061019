@@ -91,7 +91,8 @@ def all_holidays_with_bbq(holiday_hash)
 bbq_holidays=[]
 
 
-if holiday_hash.find {|key, value| key == "BBQ"}
+if holiday_hash.find {|key, value| binding.pry key == "BBQ"}
+
      bbq_holidays <<
 
 
