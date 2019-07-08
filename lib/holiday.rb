@@ -97,7 +97,7 @@ bbq_holidays=[]
    if supplies.include? "BBQ"
     puts holiday << bbq_holidays
 
- end 
+ end
 }
 }
 
