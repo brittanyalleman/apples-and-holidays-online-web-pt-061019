@@ -87,8 +87,9 @@ all_holidays_and_supplies = []
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
+  binding.pry
+
 holiday_hash.collect.include?("BBQ")
-if true
 
 end
 end
