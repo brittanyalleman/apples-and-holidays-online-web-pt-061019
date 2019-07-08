@@ -96,7 +96,7 @@ bbq_holidays=[]
    binding.pry
    if supplies.include? "BBQ"
     puts holiday << bbq_holidays
-    
+
  }
 }
 
