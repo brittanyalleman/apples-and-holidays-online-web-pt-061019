@@ -92,8 +92,8 @@ bbq_holidays=[]
 holiday_hash.each do |key,value|
 
 
-if key.inclue? ("BBQ")
+if key.include? ("BBQ")
 else
-end 
+end
 end
 end
