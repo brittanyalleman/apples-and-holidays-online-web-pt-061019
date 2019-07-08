@@ -93,7 +93,7 @@ bbq_holidays=[]
 
 if holiday_hash.find {|key, value| binding.pry key == "BBQ"}
 
-     bbq_holidays <<
+
 
 
  end
